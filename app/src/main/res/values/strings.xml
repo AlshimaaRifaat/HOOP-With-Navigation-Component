@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name" translatable="false">HOOP</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="you_must_selected_country_and_city"> please select country and city</string>
+    <string name="select_country">select country</string>
+    <string name="no_country">no country</string>
+    <string name="error">check your internet connection</string>
+    <string name="select_city">Select city</string>
+    <string name="no_city">no city</string>
+    <string name="positive">Positive!</string>
+    <string name="maybe">Maybe!</string>
+    <string name="negative">Negative!</string>
+    <string name="select_gender">select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="you_must_answer_for_these_question">Please answer all questions</string>
+    <string name="stay_at_home">Stay at home</string>
+    <string name="language">AR</string>
+    <string name="protection_measures">Protection measures</string>
+    <string name="home_isolation">Home isolation</string>
+    <string name="articles">Articles</string>
+    <string name="virus_test">Virus Test</string>
+    <string name="faq">FAQ</string>
+    <string name="article_details">Article details</string>
+    <string name="protection_measure">protection_measure</string>
+    <string name="references">References</string>
+    <string name="infected">Infected</string>
+    <string name="recovered">Recovered</string>
+    <string name="died">Died</string>
+    <string name="please_wait">please wait</string>
+    <string name="english">ENGLISH</string>
+    <string name="arabic">ARABIC</string>
+    <string name="choose_language">Choose language</string>
+    <string name="stay_at_home1">#Stay_at_home</string>
+    <string name="press_to_exit">Press twice to exit</string>
+    <string name="invalid_phone">invalid phone</string>
+    <string name="invalid_username">invalid username</string>
+    <string name="fill_inputs">fill inputs</string>
+    <string name="read_more">Read more</string>
+    <string name="article_title_here">Article title here</string>
+    <string name="current_country">Current Country</string>
+    <string name="current_city">Current City</string>
+    <string name="continuego">Continue</string>
+    <string name="phone">phone</string>
+    <string name="your_name">Your name</string>
+    <string name="your_age">Your Age</string>
+    <string name="gender">Gender</string>
+    <string name="phone_here">Phone here</string>
+    <string name="name_here">Name here</string>
+    <string name="age_here">Age here</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="days">Days</string>
+    <string name="in">IN</string>
+    <string name="out">OUT</string>
+    <string name="powered_by_www_ibsvalley_com">Powered by www.ibsvalley.com</string>
+    <string name="latest_update">Latest Update</string>
+
+</resources>

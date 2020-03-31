@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/product_card"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.70" />
+
+
+        <TextView
+            android:id="@+id/date"
+
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/choose_language"
+            android:textColor="#000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+        <TextView
+            android:id="@+id/enTv"
+            android:layout_width="296dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_rounded_grey"
+            android:gravity="center"
+            android:text="@string/english"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+
+            app:layout_constraintEnd_toEndOf="@+id/date"
+            app:layout_constraintStart_toStartOf="@+id/date"
+            app:layout_constraintTop_toBottomOf="@+id/date" />
+
+        <TextView
+            android:id="@+id/arTv"
+            android:layout_width="296dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="24dp"
+
+            android:background="@drawable/btn_rounded_grey"
+            android:fontFamily="@font/neuwelt_medium"
+            android:gravity="center"
+            android:text="@string/arabic"
+
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/enTv"
+            app:layout_constraintStart_toStartOf="@+id/enTv"
+            app:layout_constraintTop_toBottomOf="@+id/enTv" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </ScrollView>-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/product_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="10dp">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/ibs"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:src="@drawable/ibs" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_toEndOf="@+id/ibs"
+                android:gravity="center"
+                android:text="@string/powered_by_www_ibsvalley_com"
+                android:textColor="#FFF"
+
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

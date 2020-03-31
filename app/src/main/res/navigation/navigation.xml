@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeActivity">
+
+    <fragment
+        android:id="@+id/homeActivity"
+        android:name="com.ibsvalley.hoop.view.fragment.HomeFragment"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" >
+        <action
+            android:id="@+id/action_homeActivity_to_articlesFragment"
+            app:destination="@id/articlesFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_chooseCountryFragment"
+            app:destination="@id/chooseCountryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_userInFragment"
+            app:destination="@id/userInFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_stayAtHomeStatisticsFragment"
+            app:destination="@id/stayAtHomeStatisticsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_FAQFragment"
+            app:destination="@id/FAQFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_protectionMeasureFragment"
+            app:destination="@id/protectionMeasureFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_homeIsolationFragment"
+            app:destination="@id/homeIsolationFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+        <action
+            android:id="@+id/action_homeActivity_to_refrencesFragment"
+            app:destination="@id/refrencesFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.article.ArticlesFragment"
+        android:label="activity_articles"
+        tools:layout="@layout/activity_articles" >
+
+        <action
+            android:id="@+id/action_articlesFragment_to_articlesDetailsFragment"
+            app:destination="@id/articlesDetailsFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/articlesDetailsFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.article.ArticlesDetailsFragment"
+        android:label="activity_articles_details"
+        tools:layout="@layout/activity_articles_details" >
+        <argument
+            android:name="artID"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseCountryFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.test.ChooseCountryFragment"
+        android:label="activity_choose_country"
+        tools:layout="@layout/activity_choose_country" >
+
+        <action
+            android:id="@+id/action_chooseCountryFragment_to_userInFragment"
+            app:destination="@id/userInFragment"
+
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/userInFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.test.UserInFragment"
+        android:label="UserInFragment" >
+        <action
+            android:id="@+id/action_userInFragment_to_testResultFragment"
+            app:destination="@id/testResultFragment"
+
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/testResultFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.test.TestResultFragment"
+        android:label="TestResultFragment"
+
+
+        >
+
+        <argument
+            android:name="TestResultOb"
+            android:defaultValue=" "
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/stayAtHomeStatisticsFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.StayAtHomeStatisticsFragment"
+        android:label="app_bar_home_stay_athomestatistics"
+        tools:layout="@layout/app_bar_home_stay_athomestatistics" />
+    <fragment
+        android:id="@+id/FAQFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.FAQFragment"
+        android:label="activity_faq"
+        tools:layout="@layout/activity_faq" />
+    <fragment
+        android:id="@+id/protectionMeasureFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.ProtectionMeasureFragment"
+        android:label="activity_protection_measure"
+        tools:layout="@layout/activity_protection_measure" />
+    <fragment
+        android:id="@+id/homeIsolationFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.HomeIsolationFragment"
+        android:label="activity_home_isolation2"
+        tools:layout="@layout/activity_home_isolation2" />
+    <fragment
+        android:id="@+id/refrencesFragment"
+        android:name="com.ibsvalley.hoop.view.fragment.RefrencesFragment"
+        android:label="activity_refrences"
+        tools:layout="@layout/activity_refrences" />
+
+</navigation>

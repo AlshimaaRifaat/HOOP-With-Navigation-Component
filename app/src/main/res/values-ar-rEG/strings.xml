@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="you_must_selected_country_and_city">برجاء اختيار الدولة والمدينة</string>
+    <string name="select_country">اختر الدولة</string>
+    <string name="no_country">لا يوجد بلد</string>
+    <string name="error">تحقق من اتصالك بالإنترنت</string>
+    <string name="select_city">اختر مدينة</string>
+    <string name="no_city">لايوجد مدينة</string>
+    <string name="positive">إيجابي!</string>
+    <string name="maybe">احتمال!</string>
+    <string name="negative">سلبي!</string>
+    <string name="select_gender"> نوع </string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="you_must_answer_for_these_question">برجاء الإجابة عن هذه الأسئلة</string>
+    <string name="stay_at_home">البقاء في المنزل</string>
+    <string name="language">EN</string>
+    <string name="protection_measures">تدابير الحماية</string>
+    <string name="home_isolation">العزل المنزلى</string>
+    <string name="articles">مقالات</string>
+    <string name="virus_test">اختبار الفيروس</string>
+    <string name="faq">الاسئلة الشائعة</string>
+    <string name="references">المراجع</string>
+    <string name="article_details">تفاصيل المقال</string>
+    <string name="protection_measure">تدابير الحماية</string>
+    <string name="infected">مصاب</string>
+    <string name="recovered">متعافي</string>
+    <string name="died">توفى</string>
+    <string name="please_wait">برجاء الإنتظار</string>
+    <string name="english">ENGLISH</string>
+    <string name="arabic">ARABIC</string>
+    <string name="choose_language">Choose language</string>
+    <string name="stay_at_home1">#البقاء_في_المنزل</string>
+    <string name="press_to_exit">Press twice to exit</string>
+    <string name="invalid_phone">رقم الهاتف غير صحيح</string>
+    <string name="invalid_username">اسم المستخدم اقل من 5 حروف</string>
+    <string name="read_more">قراءة المزيد</string>
+    <string name="fill_inputs">من فضلك قم بملئ بياناتك</string>
+
+    <string name="article_title_here">Article title here</string>
+    <string name="current_country">الدوله الحالية</string>
+    <string name="current_city">المدينة الحالية</string>
+    <string name="continuego">استمر</string>
+    <string name="phone">رقم الموبايل</string>
+    <string name="your_name">الاسم</string>
+    <string name="your_age">العمر</string>
+    <string name="gender">نوع</string>
+    <string name="phone_here">رقم الموبايل</string>
+    <string name="name_here">الاسم</string>
+    <string name="age_here">العمر </string>
+    <string name="powered_by_www_ibsvalley_com">Powered by www.ibsvalley.com</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="days">أيام</string>
+    <string name="in">فى الداخل</string>
+    <string name="out">فى الخارج</string>
+    <string name="latest_update">اخر تحديث</string>
+
+</resources>
